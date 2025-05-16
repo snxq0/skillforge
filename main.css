@@ -1,0 +1,95 @@
+body{
+    background-color: #444344;
+}
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+
+      /* Навбар */
+      .navbar {
+        background-color: #b3adad;
+        padding: 16px 0;
+        border-bottom: 4px solid #339CFF;
+      }
+
+      .nav-links {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .nav-links a {
+        background-color: #e6e6e6;
+        padding: 8px 24px;
+        border-radius: 999px;
+        font-size: 14px;
+        color: black;
+        font-family: sans-serif;
+        transition: background-color 0.3s ease;
+      }
+
+      .nav-links a:hover {
+        background-color: #d4d4d4;
+      }
+
+      /* Главная секция */
+      .hero {
+        background-color: #444344;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 80px;
+        opacity: 0.4;
+        margin-bottom: 16px;
+      }
+
+      .hero h1 {
+        font-size: 20px;
+        font-family: serif;
+      }
+
+.card {
+  background: #3a3a3a; /* светлее, но всё ещё темно */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(50, 150, 255, 0.7);
+  color: #ddd; /* светлый текст для контраста */
+}
+
+.git-hub {
+  background-color: #e6e6e6;
+  padding: 8px 24px;
+  border-radius: 999px;
+  font-size: 14px;
+  color: black;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* чтобы margin работал корректно */
+  margin-top: 20px; /* отступ сверху */
+}
+
+      .card h2 {
+        margin-top: 0;
+        color: #3399ff;
+      }
+
+      /* Заголовок страницы */
+      h1 {
+        text-align: center;
+        margin-top: 40px;
+        color: #ffffff;
+        font-family: 'Georgia', serif;
+      }
